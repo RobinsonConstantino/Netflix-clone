@@ -1,0 +1,108 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    background: var(--preto);
+    font-family: Calibri;
+    color: white;    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Calibri'; 
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    font-family: Calibri;
+    margin-top: 30px;   
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("img/img6.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    margin-top: 50px;  
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: Calibri;
+    font-size: 17px;     
+}
+
+.titulo {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: Calibri;
+    }
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    font-family: Calibri;
+    }
+
+    .botao:hover{
+    background-color: white;
+    color: black;        
+    }
+
+    .botao i {
+    margin-right: 5px;
+    }
+
+    .container {
+    margin-left: 15px;
+    margin-right: 15px;        
+    }
+
+    .filme-principal .container {
+    width:       
+    }
+
+    .box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    }
+
+    .carrossel-filmes{
+    margin-top: 10px;    
+    }
